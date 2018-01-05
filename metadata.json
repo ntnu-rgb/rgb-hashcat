@@ -1,0 +1,53 @@
+{
+  "name": "rgb-hashcat",
+  "version": "0.6.0",
+  "author": "Henriette & Sturla",
+  "summary": "A puppet module for installing hashcat",
+  "license": "Apache-2.0",
+  "source": "https://github.com/ntnu-rgb/rgb-hashcat",
+  "issues_url": "https://github.com/ntnu-rgb/rgb-hashcat/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "puppetlabs-chocolatey",
+      "version_requirement": ">= 1.1.0"
+    },
+    {
+      "name": "puppetlabs-apt",
+      "version_requirement": ">= 2.2.2"
+    },
+    {
+      "name": "rgb-nvidia",
+      "version_requirement": ">= 1.0.1"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Windows",
+      "operatingsystemrelease": [
+        "7",
+        "8",
+        "10",
+        "Server 2016"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04",
+        "16.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0"
+    }
+  ],
+  "description": "This module automates the installation of hashcat. The module allows you to specify whether you want to use CPU or GPU, but will automatically use the fastest hardware when used without parameters."
+}
+
