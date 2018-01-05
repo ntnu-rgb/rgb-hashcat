@@ -37,7 +37,8 @@ Hashcat can not be used unless there is at least one OpenCL device available. In
   * Ubuntu: Install OpenCL runtime from <https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime>.
 
 * AMD CPU
-  * Follow the instructions at <http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Install.aspx> in order to install the latest drivers. The AMD GPU drivers provide the OpenCL libraries used by AMD CPUs.
+  * Windows: Download and install the latest drivers from <http://support.amd.com/en-us/download>
+  * Ubuntu: Follow the instructions at <http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Install.aspx> in order to install the latest drivers.
 
 * AMD GPU
   * Windows: Download and install the latest drivers from <http://support.amd.com/en-us/download>
@@ -50,12 +51,12 @@ Hashcat can not be used unless there is at least one OpenCL device available. In
 #### Hashcat driver requirements
 Hashcat requires the following versions of the different types of drivers:
 
-+ AMD GPUs on Windows require "AMD Radeon Software Crimson Edition" (15.12 or later)
-+ AMD GPUs on Linux require "AMDGPU-PRO Driver" (16.40 or later) 
-+ Intel CPUs require "OpenCL Runtime for Intel Core and Intel Xeon Processors" (16.1.1 or later)
-+ Intel GPUs on Windows require "OpenCL Driver for Intel Iris and Intel HD Graphics"
-+ Intel GPUs on Linux require "OpenCL 2.0 GPU Driver Package for Linux" (2.0 or later)
-+ NVIDIA GPUs require "NVIDIA Driver" (367.x or later)
+* AMD GPUs on Windows require "AMD Radeon Software Crimson Edition" (15.12 or later)
+* AMD GPUs on Linux require "AMDGPU-PRO Driver" (16.40 or later) 
+* Intel CPUs require "OpenCL Runtime for Intel Core and Intel Xeon Processors" (16.1.1 or later)
+* Intel GPUs on Windows require "OpenCL Driver for Intel Iris and Intel HD Graphics"
+* Intel GPUs on Linux require "OpenCL 2.0 GPU Driver Package for Linux" (2.0 or later)
+* NVIDIA GPUs require "NVIDIA Driver" (367.x or later)
 
 ## Usage
 
