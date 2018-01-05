@@ -33,20 +33,19 @@ Please make sure that all dependencies are met. Use the command `puppet module l
 We recommend that you install the desired drivers before starting the installation, regardless of whether you are using AMD, NVIDIA, or Intel.
 Hashcat can not be used unless there is at least one OpenCL device available. In almost all cases a GPU will be faster than a CPU for cracking passwords.
 
-#### Intel CPU
-**Ubuntu**: Install OpenCL runtime from <https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime>.
+* Intel CPU
+  * Ubuntu: Install OpenCL runtime from <https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime>.
 
-#### AMD CPU
-Follow the instructions at <http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Install.aspx> in order to install the latest drivers. The AMD GPU drivers provide the OpenCL libraries used by AMD CPUs.
+* AMD CPU
+  * Follow the instructions at <http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Install.aspx> in order to install the latest drivers. The AMD GPU drivers provide the OpenCL libraries used by AMD CPUs.
 
-#### AMD GPU
-**Windows**: Download and install the latest drivers from <http://support.amd.com/en-us/download>
+* AMD GPU
+  * Windows: Download and install the latest drivers from <http://support.amd.com/en-us/download>
+  * Ubuntu: Follow the instructions at <http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Install.aspx> in order to install the latest drivers.
 
-**Ubuntu**: Follow the instructions at <http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Install.aspx> in order to install the latest drivers.
-
-#### NVIDIA GPU
-**Ubuntu**: NVIDIA drivers will be automatically installed, but will require a reboot before the drivers can be used.
-The hashcat team recommends downloading and installing the drivers directly from [NVIDIAs pages](http://www.nvidia.com/Download/index.aspx) for optimal performance.
+*  NVIDIA GPU
+  * Ubuntu: NVIDIA drivers will be automatically installed, but will require a reboot before the drivers can be used.
+  * The hashcat team recommends downloading and installing the drivers directly from [NVIDIAs pages](http://www.nvidia.com/Download/index.aspx) for optimal performance.
 
 #### Hashcat driver requirements
 Hashcat requires the following versions of the different types of drivers:
