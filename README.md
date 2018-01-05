@@ -37,6 +37,7 @@ Hashcat can not be used unless there is at least one OpenCL device available. In
   * Ubuntu: Install OpenCL runtime from <https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime>.
 
 * AMD CPU
+  * The AMD GPU driver packages contains the libraries used by AMD CPUs.
   * Windows: Download and install the latest drivers from <http://support.amd.com/en-us/download>
   * Ubuntu: Follow the instructions at <http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Install.aspx> in order to install the latest drivers.
 
@@ -44,7 +45,7 @@ Hashcat can not be used unless there is at least one OpenCL device available. In
   * Windows: Download and install the latest drivers from <http://support.amd.com/en-us/download>
   * Ubuntu: Follow the instructions at <http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Install.aspx> in order to install the latest drivers.
 
-*  NVIDIA GPU
+* NVIDIA GPU
   * Ubuntu: NVIDIA drivers will be automatically installed, but will require a reboot before the drivers can be used.
   * The hashcat team recommends downloading and installing the drivers directly from [NVIDIAs pages](http://www.nvidia.com/Download/index.aspx) for optimal performance.
 
