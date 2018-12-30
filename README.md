@@ -1,4 +1,8 @@
-# hashcat
+# ~~hashcat~~
+
+**Deprecated module: As of hashcat version 4.1.0, hashcat must be located in the current working directory to work, and is therefore not suited for automated installation (see https://github.com/hashcat/hashcat/issues/1539). This module has therefore been deprecated.**
+
+---
 
 #### Table of Contents
 
